@@ -40,7 +40,7 @@ RUN apt-get update -y \
     libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 \
     libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates \
     fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils \
-    && yarn add mermaid-filter@1.2.0
+    && yarn add mermaid-filter@1.4.4
 
 ENV PATH /root/node_modules/.bin:$PATH
 
